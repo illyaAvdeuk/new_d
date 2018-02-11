@@ -1,0 +1,61 @@
+.box-modal {
+	position: relative;
+	width: 350px;
+	padding: 16px;
+	background: #fff;
+	color: #3c3c3c;
+	font: 14px/18px Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+	box-shadow: 0 0 0 6px rgba(153, 153, 153, .3);
+	border-radius: 6px;
+}
+.box-modal_close { position: absolute; right: 10px; top: 6px; font-size: 11px; line-height: 15px; color: #999; cursor: pointer; }
+.box-modal_close:hover { color: #666; }
+
+.g-hidden {
+  display:none;
+}
+
+#feedback-form input {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    border-radius: 3px;
+    color: #555555;
+    display: inline-block;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 9px;
+    padding: 4px 6px;
+}
+
+#feedback-form td {
+  font-size:12px;
+}
+
+#feedback-form td span {
+  color:red;
+}
+
+.rezerv_btn2 > input {
+    background: none repeat scroll 0 0 #222 !important;
+    color: #fff !important;
+    height: 40px !important;
+    padding: 4px 50px !important;
+}
+
+.rezerv_btn2 > input:hover {
+  background:#545454 !important;
+}
+
+.phone_top_order {
+  cursor:pointer;
+  color:#1068ac;
+  text-decoration:underline;
+}
+
+.phone_top_order:hover {
+  color:#005580;
+  text-decoration:none;
+}

@@ -1,0 +1,73 @@
+
+<html> 
+<head> 
+<link href="styles/jQuerystyle.css" type="text/css" rel="stylesheet"/> 
+<script type="text/javascript" src="scripts/jquery.js"></script> 
+<script type="text/javascript" src="scripts/jquery.cycle.all.min.js"></script> 
+<script type="text/javascript"> 
+$(document).ready(function() {
+		$("#slideshowCont").css("overflow", "hidden");
+		$("#last").css("display", "block");
+		$("#next").css("display", "block");
+		$('#slideShow ul').cycle({
+		fx: 'scrollLeft',
+		pause:1,
+		next: '#next',
+		prev: '#last',
+		timeout:0
+		});
+});
+ 
+ 
+</script> 
+</head> 
+ 
+<body> 
+ 
+ 
+ 
+<div id="slideshowCont"> 
+<img src="images/SlastBtn.png"  alt="next" id="next" width="40"/> 
+	<div id="slideShow"> 
+	<ul> 
+	<li><div><img src="images/cool.jpg" alt="testimage"  width="120" height="120"/> 
+	<p> Cool image</p> 
+	</div> 
+	<div><img src="images/cool2.jpg" alt="testsimage"  width="120" height="120"/> 
+	<p> Chocolate! </p> 
+	</div> 
+	<div><img src="images/cool3.jpg" alt="testimage"  width="120" height="120"/> 
+	<p> Outdoors </p> 
+	</div> 
+	</li> 
+	<li><div><img src="images/time.gif" alt="testimage"  width="120" height="120"/> 
+	<p> Time</p> 
+	</div> 
+	<div><img src="images/time.gif" alt="testimage"  width="120" height="120"/> 
+	<p> Time</p> 
+	</div> 
+	<div><img src="images/time.gif" alt="testimage"  width="120" height="120"/> 
+	<p> Time</p> 
+	</div> 
+	</li> 
+	<li><div><img src="images/tags.gif" alt="testimage"  width="120" height="120"/> 
+	<p> Tags </p> 
+	</div> 
+	<div><img src="images/tags.gif" alt="testimage"  width="120" height="120"/> 
+	<p> Tags </p> 
+	</div> 
+	<div><img src="images/tags.gif" alt="testimage"  width="120" height="120"/> 
+	<p> Tags </p> 
+	</div> 
+	</li> 
+	</ul> 
+	</div> 
+<img src="images/SnextBtn.png"  alt="last"  id="last" width="40"/> 
+</div> 
+ 
+ 
+ 
+ 
+ 
+</body> 
+</html>

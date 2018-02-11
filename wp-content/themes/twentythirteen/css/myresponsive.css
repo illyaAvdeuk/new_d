@@ -1,0 +1,10 @@
+@media only screen and (max-width: 960px){
+    .slider_my{display: none;}
+    .main_title{margin-top: 0px;}
+    .footer_top_wrapper{display: none;}
+    .map{height: 300px !important;}
+    .site{background: url(/wp-content/uploads/2014/03/all_header_bg.fw_-1024x134.jpg) !important;}
+}
+@media only screen and (max-width: 480px){
+    .map{display: none;}
+}

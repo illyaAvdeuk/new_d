@@ -1,0 +1,56 @@
+.carousel  {
+   max-width: 1080px; /* ширина всего блока */
+   margin: 0px auto;
+   width:100%;
+   padding: 10px 0 0 0;
+}
+.carousel-wrapper {
+   margin: 10px 30px; /* отступы для стрелок */
+   overflow: hidden; /* скрываем содержимое, выходящее за рамки основной области */
+   position:relative;
+}
+.carousel-items {
+   width: 10000px; /* устанавливаем большую ширину для набора элементов */
+   position: relative; /* позиционируем блок относительно основной области карусели */
+}
+.carousel-block {
+   float: left; /* выстраиваем все элементы карусели в ряд */
+   /*width: 250px;  задаём ширину каждого элемента 
+   padding: 10px 10px 10px 0px; /* делаем оступы, чтобы элементы не сливались */
+}
+
+
+/*********** BUTTONS ***********/
+.carousel-button-left a, .carousel-button-right a{
+   width: 50px; 
+   height: 50px; 
+   position: relative;
+   top: 80px; 
+   cursor: pointer; 
+   text-decoration:none;
+   margin:100px 2px 0 0px;
+}
+.carousel-button-left a{
+   float: left; 
+  background: url(http://www.doorservice.kiev.ua/wp-content/uploads/2014/03/left2.png) no-repeat 0 0;
+}
+.carousel-button-left a:hover{
+  background: url(http://www.doorservice.kiev.ua/wp-content/uploads/2014/03/left2.png) no-repeat -50px 0;
+}
+.carousel-button-right a{
+   float: right;
+    background: url(http://www.doorservice.kiev.ua/wp-content/uploads/2014/03/right2.png) no-repeat -50px 0;
+}
+.carousel-button-right a:hover{
+ background: url(http://www.doorservice.kiev.ua/wp-content/uploads/2014/03/right2.png) no-repeat 0px 0;
+}
+/*********** SHADOW *
+.shadow{
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+}
+
+
+.carousel-block img{
+	display:block;
+}
+**********/

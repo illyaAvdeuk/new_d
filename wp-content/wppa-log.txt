@@ -1,0 +1,10 @@
+{b}Obs{/b}: on:04.08.2016 14:43: admin: Created path: /home/elitmast/elit-master.com.ua/door/wp-content/uploads/wppa
+{b}Obs{/b}: on:04.08.2016 14:43: admin: Created path: /home/elitmast/elit-master.com.ua/door/wp-content/uploads/wppa/thumbs
+{b}Obs{/b}: on:04.08.2016 14:43: admin: Created path: /home/elitmast/elit-master.com.ua/door/wp-content/wppa-depot
+{b}Obs{/b}: on:04.08.2016 14:43: admin: Created path: /home/elitmast/elit-master.com.ua/door/wp-content/wppa-depot/admin
+{b}Obs{/b}: on:04.08.2016 14:43: admin: Created path: /home/elitmast/elit-master.com.ua/door/wp-content/uploads/wppa/watermarks
+{b}Obs{/b}: on:04.08.2016 14:43: admin: Created path: /home/elitmast/elit-master.com.ua/door/wp-content/uploads/wppa/fonts
+{b}Obs{/b}: on:04.08.2016 14:43: admin: Created path: /home/elitmast/elit-master.com.ua/door/wp-content/uploads/wppa/temp/
+{b}Obs{/b}: on:04.08.2016 14:45: admin: Created path: /home/elitmast/elit-master.com.ua/door/wp-content/wppa-pl
+{b}Obs{/b}: on:04.08.2016 14:54: admin: Created path: /home/elitmast/elit-master.com.ua/door/wp-content/uploads/wppa-source
+{b}Obs{/b}: on:04.08.2016 14:54: admin: Created path: /home/elitmast/elit-master.com.ua/door/wp-content/uploads/wppa-source/album-1
